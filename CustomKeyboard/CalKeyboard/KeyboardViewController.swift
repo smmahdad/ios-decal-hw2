@@ -43,7 +43,9 @@ class KeyboardViewController: UIInputViewController {
     
     @IBOutlet weak var bernieButton: UIButton!
     
-    @IBOutlet weak var yeeeButton: UIButton!
+    @IBOutlet weak var hotlineButton: UIButton!
+    
+//    @IBOutlet weak var hotlineButton: UIButton!
     
 
     var keyboardView: UIView!
@@ -131,8 +133,8 @@ class KeyboardViewController: UIInputViewController {
         (textDocumentProxy as UIKeyInput).insertText("#FeelTheBern")
     }
     
-    func kCarlYeee() {
-        (textDocumentProxy as UIKeyInput).insertText("yeee")
+    func hotlineBling() {
+        (textDocumentProxy as UIKeyInput).insertText("#NoNewFriends")
     }
     
     func loadButtons() {
@@ -164,7 +166,9 @@ class KeyboardViewController: UIInputViewController {
         
         bernieButton.addTarget(self, action: "feelTheBern", forControlEvents: .TouchUpInside)
         
-        yeeeButton.addTarget(self, action: "kCarlYeee", forControlEvents: .TouchUpInside)
+        hotlineButton.addTarget(self, action: "hotlineBling", forControlEvents: .TouchUpInside)
+        
+//        hotlineButton.addTarget(self, action: "hotlineBling", forControlEvents: .TouchUpInside)
 
     }
 

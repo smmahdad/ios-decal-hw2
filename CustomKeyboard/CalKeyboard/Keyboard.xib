@@ -13,6 +13,7 @@
                 <outlet property="freshmanButton" destination="RqY-qX-fHD" id="xbB-dA-oZ5"/>
                 <outlet property="fuckingButton" destination="Ipy-jh-L3p" id="U8e-qV-Ezy"/>
                 <outlet property="fuegoButton" destination="1N5-PX-1b4" id="Uoe-Ng-2vR"/>
+                <outlet property="hotlineButton" destination="d6J-Ax-1os" id="eqV-JX-cbA"/>
                 <outlet property="kanyeButton" destination="UFc-Ii-kkf" id="WFH-Ny-66u"/>
                 <outlet property="nextKeyboardButton" destination="gRt-12-JcF" id="CWQ-gG-G2m"/>
                 <outlet property="returnButton" destination="zFI-oO-7Ot" id="XSG-Xq-aRu"/>
@@ -21,7 +22,6 @@
                 <outlet property="swerveButton" destination="Asy-Bb-ctv" id="Kjg-Kr-t96"/>
                 <outlet property="upeButton" destination="aJr-AN-mHy" id="b3f-C2-f1y"/>
                 <outlet property="wapButton" destination="3dR-8n-MYx" id="PQ6-Lt-zia"/>
-                <outlet property="yeeeButton" destination="Ih2-dC-xvr" id="SG8-ye-t5s"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -92,10 +92,6 @@
                     <rect key="frame" x="207" y="79" width="42" height="60"/>
                     <state key="normal" image="bernieButton.png"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ih2-dC-xvr">
-                    <rect key="frame" x="257" y="79" width="42" height="60"/>
-                    <state key="normal" image="yeeeButton.png"/>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4l7-Fj-IWn">
                     <rect key="frame" x="307" y="79" width="42" height="60"/>
                     <state key="normal" image="deleteButton.png"/>
@@ -118,6 +114,10 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6J-Ax-1os">
+                    <rect key="frame" x="257" y="79" width="42" height="60"/>
+                    <state key="normal" image="hotlineButton.png"/>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.11372549019607843" green="0.11764705882352941" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
@@ -138,6 +138,7 @@
         <image name="freshmanButton.png" width="149" height="175"/>
         <image name="fuckingButton.png" width="149" height="175"/>
         <image name="fuegoButton.png" width="149" height="175"/>
+        <image name="hotlineButton.png" width="149" height="175"/>
         <image name="kanyeButton.png" width="149" height="175"/>
         <image name="returnButton.png" width="149" height="175"/>
         <image name="sameButton.png" width="149" height="175"/>
@@ -145,6 +146,5 @@
         <image name="swerveButton.png" width="149" height="175"/>
         <image name="upeButton.png" width="149" height="175"/>
         <image name="wapButton.png" width="149" height="175"/>
-        <image name="yeeeButton.png" width="149" height="175"/>
     </resources>
 </document>

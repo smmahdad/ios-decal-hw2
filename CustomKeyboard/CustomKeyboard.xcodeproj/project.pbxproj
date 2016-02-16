@@ -16,6 +16,7 @@
 		3AAA63B31BA9283500E3822E /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */; };
 		3AAA63B71BA9283500E3822E /* CalKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3AAA63B01BA9283500E3822E /* CalKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CD083FD01C6C5B0F00F660AE /* spaceBar.png in Resources */ = {isa = PBXBuildFile; fileRef = CD083FCF1C6C5B0F00F660AE /* spaceBar.png */; };
+		CD560F1E1C72EAA80012C8CC /* hotlineButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CD560F1D1C72EAA80012C8CC /* hotlineButton.png */; };
 		CDAC30691C6C0933002BC501 /* deleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAC30641C6C0933002BC501 /* deleteButton.png */; };
 		CDAC306A1C6C0933002BC501 /* fireButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAC30651C6C0933002BC501 /* fireButton.png */; };
 		CDAC306B1C6C0933002BC501 /* kanyeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CDAC30661C6C0933002BC501 /* kanyeButton.png */; };
@@ -70,6 +71,7 @@
 		3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		3AAA63B41BA9283500E3822E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD083FCF1C6C5B0F00F660AE /* spaceBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spaceBar.png; path = ../../../../../Photoshop/KeyBoard/PNG/spaceBar.png; sourceTree = "<group>"; };
+		CD560F1D1C72EAA80012C8CC /* hotlineButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hotlineButton.png; path = ../../../../../Photoshop/KeyBoard/PNG/hotlineButton.png; sourceTree = "<group>"; };
 		CDAC30641C6C0933002BC501 /* deleteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deleteButton.png; path = ../../../../../Photoshop/KeyBoard/PNG/deleteButton.png; sourceTree = "<group>"; };
 		CDAC30651C6C0933002BC501 /* fireButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fireButton.png; path = ../../../../../Photoshop/KeyBoard/PNG/fireButton.png; sourceTree = "<group>"; };
 		CDAC30661C6C0933002BC501 /* kanyeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kanyeButton.png; path = ../../../../../Photoshop/KeyBoard/PNG/kanyeButton.png; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				CDB1F5AA1C6C448400E4A161 /* freshmanButton.png */,
 				CD083FCF1C6C5B0F00F660AE /* spaceBar.png */,
 				CDD41DA21C6C6BF0004D085A /* wapButton.png */,
+				CD560F1D1C72EAA80012C8CC /* hotlineButton.png */,
 				CDAC30671C6C0933002BC501 /* returnButton.png */,
 				CDB605E81C6C1DF300433029 /* fuegoButton.png */,
 				CDE3133D1C72D81A00CBA76F /* yeeeButton.png */,
@@ -255,6 +258,7 @@
 				CDD41DA31C6C6BF0004D085A /* wapButton.png in Resources */,
 				CDAF1FCD1C6C7EBC00AEAB11 /* bernieButton.png in Resources */,
 				CDAC30691C6C0933002BC501 /* deleteButton.png in Resources */,
+				CD560F1E1C72EAA80012C8CC /* hotlineButton.png in Resources */,
 				CDB605EF1C6C22B300433029 /* sameButton.png in Resources */,
 				CDB1F5AB1C6C448400E4A161 /* freshmanButton.png in Resources */,
 				CDE3133E1C72D81A00CBA76F /* yeeeButton.png in Resources */,
